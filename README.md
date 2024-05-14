@@ -29,3 +29,4 @@ allure serve allure-results
 ```
 
 # Enter w README dodany przez JK
+# Drugi Enter w README dodany przez JK
