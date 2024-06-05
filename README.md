@@ -10,7 +10,6 @@ ADMIN_PASSWORD=admin
 IS_HEADLESS=true
 ```
 
-HAHAHAHA
 
 ## Run in parallel
 
@@ -33,3 +32,4 @@ allure serve allure-results
 
 # Enter w README dodany przez JK
 # Drugi Enter w README dodany przez JK
+# Trzeci Enter w README dodany przez JK
