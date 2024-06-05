@@ -10,6 +10,8 @@ ADMIN_PASSWORD=admin
 IS_HEADLESS=false
 ```
 
+HAHAHAHA
+
 ## Run in parallel
 
 Warning: this mode disables test logs.
