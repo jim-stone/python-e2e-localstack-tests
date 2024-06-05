@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from pages.abstract_base_page import AbstractBasePage
 from selenium.webdriver.support import expected_conditions as EC
 from api.data.register import User
-from typing import Type, TypeVar, 
+from typing import Type, TypeVar
 
 
 T = TypeVar('T', bound='AbstractBasePage')
