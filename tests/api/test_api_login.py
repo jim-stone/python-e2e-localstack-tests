@@ -34,9 +34,7 @@ def test_should_return_422_on_wrong_username(sign_in_api: SignIn):
         assert e.response.status_code == 422, "Expected status code 422"
         assert "Invalid username/password supplied" == e.response.json()["message"], "Expected error message for wrong username"
 
-def test_should_return_422_on_wrong_username(sign_in_api: SignIn):
-    try:
-        sign_in_api.api_call("wrong", os.getenv("ADMIN_PASSWORD"))
-    except requests.exceptions.HTTPError as e:
-        assert e.response.status_code == 422, "Expected status code 422"
-        assert "Invalid username/password supplied" == e.response.json()["message"], "Expected error message for wrong username"
+def test_dummy():
+    # code of duplicated test removed
+    assert 1 == 1
+
