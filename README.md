@@ -27,6 +27,7 @@ The project should deploy allure report to github pages. The report is generated
 To run allure report locally use the following command:
 
 ```
+pytest --alluredir=allure-results tests/
 allure serve allure-results
 ```
 
