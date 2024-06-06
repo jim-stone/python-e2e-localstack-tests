@@ -35,6 +35,6 @@ def test_should_return_422_on_wrong_username(sign_in_api: SignIn):
         assert "Invalid username/password supplied" == e.response.json()["message"], "Expected error message for wrong username"
 
 def test_dummy():
-    # code of duplicated test removed
+    # code of duplicated test removed JK
     assert 1 == 1
 
