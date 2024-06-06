@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jun 06 13:19:21 GMT 2024","Thu Jun 06 13:19:21 GMT 2024","0","tests.api","test_api_login","","","","test_dummy",""
+"passed","Thu Jun 06 13:19:21 GMT 2024","Thu Jun 06 13:19:21 GMT 2024","318","tests.api","test_api_login","","","","test_should_return_422_on_wrong_username",""
+"passed","Thu Jun 06 13:19:21 GMT 2024","Thu Jun 06 13:19:21 GMT 2024","20","tests.api","test_api_login","","","","test_should_return_400_if_username_or_password_too_short",""
+"passed","Thu Jun 06 13:19:20 GMT 2024","Thu Jun 06 13:19:21 GMT 2024","750","tests.api","test_api_login","","","","test_successful_api_login",""
